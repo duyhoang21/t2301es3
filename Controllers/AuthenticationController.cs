@@ -6,6 +6,12 @@ namespace WebAppGIT.Controllers
     public class AuthenticationController : Controller
     {
         // GET: AuthenticationController
+
+        public ActionResult Login(string username, string password)
+        {
+            return View();
+        }
+
         public ActionResult Index()
         {
             return View();
